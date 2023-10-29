@@ -23,6 +23,9 @@ return {
 					},
 				})
 				lsp_zero.preset("recommended")
+				lsp_zero.on_attach(function(client, bufnr)
+					lsp_zero.default_keymaps({buffer = bufnr})
+				end)
 				lsp_zero.setup()
 			end,
 		},
