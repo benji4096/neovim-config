@@ -1,10 +1,32 @@
 
 return {
-	"patstockwell/vim-monokai-tasty",
+	"sainnhe/sonokai",
 	config = function()
-		vim.cmd.colorscheme "vim-monokai-tasty"
-	end,
+		vim.cmd.colorscheme "sonokai"
+	end
 }
+
+--return {
+--	"ellisonleao/gruvbox.nvim",
+--	config = function()
+--		vim.cmd.colorscheme "gruvbox"
+--	end
+--}
+
+--return {
+--	"savq/melange-nvim",
+--	config = function()
+--		vim.opt.termguicolors = true
+--		vim.cmd.colorscheme "melange"
+--	end,
+--}
+
+--return {
+--	"patstockwell/vim-monokai-tasty",
+--	config = function()
+--		vim.cmd.colorscheme "vim-monokai-tasty"
+--	end,
+--}
 
 --return {
 --	"catppuccin/nvim",
