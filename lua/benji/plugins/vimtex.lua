@@ -1,5 +1,6 @@
-return {
-	"lervag/vimtex",
-	config = function()
-	end,
-}
+return {}
+-- return {
+-- 	"lervag/vimtex",
+-- 	config = function()
+-- 	end,
+-- }
