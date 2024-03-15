@@ -17,7 +17,7 @@ return {
 				require('mason').setup({})
 				require('mason-lspconfig').setup({
 					-- https://github.com/williamboman/mason-lspconfig.nvim#available-lsp-servers
-					ensure_installed = { "texlab", "marksman", "lua_ls", "jedi_language_server", "rust_analyzer", "cmake", "clangd", "bashls", "jsonls", "html", "quick_lint_js", "arduino_language_server" },
+					ensure_installed = { "texlab", "marksman", "lua_ls", "jedi_language_server", "rust_analyzer", "cmake", "clangd", "bashls", "jsonls", "html", "quick_lint_js", "arduino_language_server", "zls" },
 					handlers = {
 						lsp_zero.default_setup,
 					},
