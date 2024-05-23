@@ -1,7 +1,25 @@
 
+--return {
+--  'ribru17/bamboo.nvim',
+--  lazy = false,
+--  priority = 1000,
+--  config = function()
+--    require('bamboo').setup {
+--      -- optional configuration here
+--	  diagnostics = {
+--		  darker = false, -- darker colors for diagnostic
+--		  undercurl = true, -- use undercurl instead of underline for diagnostics
+--		  background = true, -- use background color for virtual text
+--	  }
+--  }
+--  require('bamboo').load()
+--  end,
+--}
+
 return {
 	"sainnhe/sonokai",
 	config = function()
+		vim.g.sonokai_style = "shusia"
 		vim.cmd.colorscheme "sonokai"
 	end
 }
