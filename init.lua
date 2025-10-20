@@ -1,9 +1,13 @@
 
 vim.opt.relativenumber = true -- show relative line numbers
 vim.opt.number = true -- show line number
+vim.opt.statuscolumn = "%l║"
+
 vim.opt.wrap = false -- line wrap
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+vim.opt.smartindent = true
 
 vim.keymap.set("n", "<M-1>", "1gt")
 vim.keymap.set("n", "<M-2>", "2gt")
