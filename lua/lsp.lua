@@ -33,3 +33,7 @@ try_lsp("bash", {
     filetypes = { "sh" },
 })
 
+if (#errors > 1) then
+    error(table.concat(errors, "\n"), 2)
+end
+
